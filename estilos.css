@@ -1,0 +1,52 @@
+header nav{
+    font-family: sans-serif;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    display: flex;
+}
+header nav a:hover{
+    transform: scale(1.1);
+    color: rgb(88, 88, 248); 
+}
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: black; 
+    color: black;
+}
+h1{
+    text-align: center;
+    font-size: 80px; 
+}
+p {
+    
+    max-width: 600px;
+    margin: 0 auto; 
+}
+a {
+    text-decoration: none; 
+    font-size: 18px; 
+    color: black;
+    color: white;
+}
+.presentation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.circle-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    width: 500px; 
+    height: 500px; 
+    background-color: white;
+    border-radius: 50%; 
+    padding: 20px; 
+
+}
+
